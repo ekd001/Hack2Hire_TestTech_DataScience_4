@@ -1,0 +1,71 @@
+Projet Data scientist
+
+
+1- importation of dataset
+    - information about the dataset
+    Unnamed: 0
+
+    C'est probablement une colonne d'index ou un identifiant automatique pour les lignes. Elle est redondante si le DataFrame possède déjà un index par défaut.
+    Age
+
+    L'âge de l'individu (en années).
+    Sex
+
+    Le sexe de l'individu, ici codé comme "male" (homme) ou, potentiellement, "female" (femme).
+    Job
+
+    Un code numérique indiquant le type de travail ou la catégorie professionnelle de l'individu. Par exemple :
+    0 : Non employé
+    1 : Employé à bas revenu
+    2 : Professionnel
+    3 : Haut poste de direction (à vérifier dans la documentation du dataset).
+    Housing
+
+    Le statut de logement de l'individu :
+    own : Propriétaire.
+    rent : Locataire.
+    free : Logement gratuit (chez des proches, par exemple).
+    Saving accounts
+
+    Informations sur le compte d'épargne de l'individu :
+    NaN : Pas de compte d'épargne déclaré.
+    little : Peu d'épargne.
+    moderate : Épargne modérée.
+    rich : Épargne importante.
+    Checking account
+
+    Informations sur le compte courant de l'individu :
+    little, moderate, rich avec des significations similaires au compte d'épargne.
+    Credit amount
+
+    Le montant du crédit demandé (probablement en euros ou dans une autre devise). Exemple : 1169.
+    Duration
+
+    La durée du crédit (en mois).
+    Purpose
+
+    La raison pour laquelle l'individu a demandé le crédit, comme :
+    radio/TV : Acheter une radio ou une télévision.
+    car : Acheter une voiture.
+    furniture : Acheter des meubles.
+    Autres finalités possibles : voyage, rénovation, etc.
+    Risk
+
+    L'évaluation du risque de crédit. Cela pourrait être :
+    good : Bon risque (le client a de fortes chances de rembourser le crédit).
+    bad : Mauvais risque (le client risque de ne pas rembourser).
+
+
+2- data cleaning
+    2.1- Identify the missing values.
+    2.2- Fill the missing values
+        when i detect a missing value in one column on the line and i take a value from the other column from the
+        same line to replace it.
+        To fill the missing values when the two columns have a missing value on the same line i take the mode of each column to 
+        replace it.
+    2.3- Detect the outlier values
+    2.3.1- Adjust the outlier values of credit amount by replacing with the bound value.
+    2.3.2- Delete duplicated rows.
+
+3. Data analysis
+    correlation between Risk column and other columns.

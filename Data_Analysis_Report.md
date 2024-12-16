@@ -182,6 +182,12 @@ Risk Category =  IF(Project1[CreditAmount] > 5000, "High Risk", "Low Risk")
 * Created donut charts to showcase the percentage of good vs. bad credit risk.
 * Used cards to show the total credit amount, average credit amount, total number of people who applied for credit, the average age, and the average credit duration. 
 * Used slicers for sex, housing, credit risk, and risk category to make the dashboard interactive.
+
+<figure>
+  <img src="https://github.com/ekd001/Hack2Hire_TestTech_DataScience_4/blob/main/Dashboard.png" width=100% height=100% alt="alt text">
+  <figcaption>Figure: Credit Scoring Analysis Dashboard</figcaption>
+</figure>
+<br/><br/>
  
 ## Insights from the Data Analysis
 1. **Total Credit Distribution by Purpose**  

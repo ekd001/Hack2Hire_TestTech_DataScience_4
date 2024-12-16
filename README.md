@@ -3,3 +3,4 @@
 
 - The file note.txt contains the general information of the notebook
 - the file difficulte.txt contains the problems encountered in the challenge
+- the scoring_credit is the notebook
